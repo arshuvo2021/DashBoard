@@ -1,0 +1,159 @@
+*{margin: 0;padding: 0;}
+.wrapper{
+  width: 100%;
+}
+.navbar {
+   margin-bottom: 0;
+    border-radius: 0;
+    background-image: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(37, 113, 111) 0%, rgb(106, 181, 201) 82%);    color: grey;
+  }
+
+  /* The sidepanel menu */
+.sidepanel {
+  height: -webkit-fill-available; /* Specify a height */
+  width: auto; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,173,170,1) 0%, rgba(21,116,116,1) 0%, rgba(51,124,125,1) 37%, rgba(36,150,132,1) 67%, rgba(22,169,208,1) 99%, rgba(13,82,101,1) 100%);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.3s; /* 0.5 second transition effect to slide in the sidepanel */
+
+}
+
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffff;
+  display: block;
+  transition: 0.3s;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #2a3534;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(35, 131, 160);
+  color: rgb(43, 61, 99);
+  padding: 10px 15px;
+  border: none;  
+}
+
+.openbtn:hover {
+  background-color: rgb(238, 241, 241);
+}
+ #hh{
+    color: #140e0e;
+    width: 10px;
+    height: 3px;
+    text-size-adjust: 10px;
+  }
+
+ .content{
+   text-decoration: none;
+   text-align: center;
+   
+ }
+ 
+
+ .cd_wrap{
+     
+     border-bottom-width: 2px;
+     width: 100%;
+     margin: 10px;
+ }
+  .indiv{
+      width: 15% !important;
+      height: 100px;
+      margin-left: 30px !important;
+      background-color: #1065b4;
+      text-align: right;
+      margin-bottom: 10px;
+      
+ }
+
+
+.ar{
+  padding: 5px !important;
+
+  
+  
+}
+.ars{
+  margin-left:50px;
+  float: right;
+  top:1rem;
+  right: 2rem;
+  color: #000;
+
+
+}
+
+.arsh{
+  margin-left: 950px;
+  float: right;
+
+  top:1rem;
+  right: 7rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.arsh:hover{
+  text-decoration: none;
+
+}
+.footer{
+  width: 100%;
+  height: 35px;
+  background-color: #000;
+  
+ 
+}
+.foot{
+  text-align: center;
+  color: aliceblue;
+  font: 1em sans-serif;
+
+}
+
+
+@media screen and (max-width: 777px){
+
+  .card-group{
+    display:grid !important;
+  }
+  .navbar-brand {
+    display: none !important;
+  }
+  .indiv{
+    width: 80% !important;
+  }
+  .arsh{
+    margin-left: 10% !important;
+  }
+  .ssss{
+    display: none !important;
+  }
+}
